@@ -4,8 +4,8 @@ local M = {
 	priority = 1000,
 	config = function()
 		require("catppuccin").setup({
-			flavour = "frappe", -- latte, frappe, macchiato, mocha
-			transparent_background = true, -- disables setting the background color.
+			flavour = "latte", -- latte, frappe, macchiato, mocha
+			transparent_background = false, -- disables setting the background color.
 			no_underline = true, -- Force no underline
 			term_colors = true, -- sets terminal colors (e.g. `g:terminal_color_0`)
 			dim_inactive = {
@@ -14,20 +14,20 @@ local M = {
 				percentage = 0.9, -- percentage of the shade to apply to the inactive window
 			},
 
-			styles = { -- Handles the styles of general hi groups (see `:h highlight-args`):
-				comments = { "italic" }, -- Change the style of comments
-				conditionals = { "italic" },
-				loops = {},
-				functions = {},
-				keywords = { "bold" },
-				strings = { "italic" },
-				variables = {},
-				numbers = { "bold" },
-				booleans = {},
-				properties = {},
-				types = {},
-				operators = { "bold" },
-			},
+			--styles = { -- Handles the styles of general hi groups (see `:h highlight-args`):
+			--	comments = { "italic catppuccin" }, -- Change the style of comments
+			--	conditionals = { "italic" },
+			--	loops = {},
+			--	functions = {},
+			--	keywords = { "bold" },
+			--	strings = { "italic" },
+			--	variables = {},
+			--	numbers = { "bold" },
+			--	booleans = {},
+			--	properties = {},
+			--	types = {},
+			--	operators = { "bold" },
+			--},
 
 			integrations = {
 				cmp = true,

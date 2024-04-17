@@ -25,7 +25,7 @@ local M = {
 	dependencies = "nvim-tree/nvim-web-devicons",
 	config = {
 		filters = {
-			custom = { "^\\.git$" },
+			custom = { "^\\.git$", "^\\.cache$", "out$", "compile_commands.json" },
 		},
 		sort_by = "name",
 		root_dirs = {},
@@ -45,7 +45,7 @@ local M = {
 			debounce_delay = 15,
 			width = {
 				min = 30,
-				max = 100,
+				max = 30,
 			},
 			side = "left",
 			preserve_window_proportions = false,
