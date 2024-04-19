@@ -4,7 +4,7 @@ local M = {
 	priority = 1000,
 	config = function()
 		require("catppuccin").setup({
-			flavour = "latte", -- latte, frappe, macchiato, mocha
+			flavour = "frappe", -- latte, frappe, macchiato, mocha
 			transparent_background = false, -- disables setting the background color.
 			no_underline = true, -- Force no underline
 			term_colors = true, -- sets terminal colors (e.g. `g:terminal_color_0`)

@@ -2,7 +2,7 @@ local function clangd_formater()
 	return {
 		exe = "clang-format",
 		args = {
-			'--style="{BasedOnStyle: llvm, IndentWidth: 4}"',
+		--	'--style="{BasedOnStyle: llvm, IndentWidth: 4}"',
 		},
 		stdin = true,
 	}
