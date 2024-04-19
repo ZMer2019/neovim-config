@@ -23,6 +23,7 @@ local plugins = {
 	-- color theme
 	require("plugins.tokyonight"),
 	require("plugins.catppuccin"),
+	"bluz71/vim-moonfly-colors",
 
 	-- nvim tree
 	require("plugins.nvim-tree"),
