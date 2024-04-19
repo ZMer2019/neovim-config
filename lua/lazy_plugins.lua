@@ -24,6 +24,7 @@ local plugins = {
 	require("plugins.tokyonight"),
 	require("plugins.catppuccin"),
 	"bluz71/vim-moonfly-colors",
+	"jacoborus/tender.vim",
 
 	-- nvim tree
 	require("plugins.nvim-tree"),

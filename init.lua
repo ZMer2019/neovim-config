@@ -26,4 +26,5 @@ require("tex")
 -- set colorscheme at last
 --vim.cmd([[colorscheme tokyonight]])
 --vim.cmd([[colorscheme catppuccin]])
-vim.cmd([[colorscheme moonfly]])
+--vim.cmd([[colorscheme moonfly]])
+vim.cmd([[colorscheme tender]])
