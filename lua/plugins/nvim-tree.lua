@@ -25,7 +25,7 @@ local M = {
 	dependencies = "nvim-tree/nvim-web-devicons",
 	config = {
 		filters = {
-			custom = { "^\\.git$", "^\\.cache$", "out$", "compile_commands.json" },
+			custom = { "^\\.git$", "^\\.cache$", "out$", "compile_commands.json", "*.o", "*.cmd", "*.mod.c" },
 		},
 		sort_by = "name",
 		root_dirs = {},
