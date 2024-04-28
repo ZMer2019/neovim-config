@@ -81,6 +81,13 @@ autocmd("BufEnter", {
 	end,
 })
 
+autocmd("BufEnter", {
+	pattern = { "*.h", "*.c", "*.cpp" },
+	group = myAutoGroup,
+	callback = function()
+		vim.o.expandtab = 4
+	end,
+})
 -- Turn off syntax highlighting for large files
 autocmd("BufEnter", {
 	group = myAutoGroup,
